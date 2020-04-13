@@ -45,14 +45,14 @@ export default {
     return {
       items: [
         {
-          title: 'Home',
+          title: 'Import',
           icon: 'home',
-          to: { name: 'index' }
+          to: { name: 'backpack-import' }
         },
         {
-          title: 'Inspire',
+          title: 'Visualize',
           icon: 'lightbulb',
-          to: { name: 'inspire' }
+          to: { name: 'backpack-visualize' }
         }
       ]
     }
